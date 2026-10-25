@@ -1,0 +1,10 @@
+# Install requirements-gpu.txt first in the sop-detector Conda environment.
+fastapi==0.146.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+ultralytics==8.3.221
+pydantic==2.14.1
+Pillow==12.3.0
+numpy==2.5.2
+torch==2.7.1+cu126
+torchvision==0.22.1+cu126

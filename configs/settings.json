@@ -1,0 +1,13 @@
+{
+  "host": "127.0.0.1",
+  "port": 18092,
+  "access_token": "88888888",
+  "allowed_origins": ["http://localhost:9527", "http://127.0.0.1:9527"],
+  "log_directory": "D:/projects/logs",
+  "device": "cuda:0",
+  "max_image_bytes": 5242880,
+  "max_image_pixels": 16000000,
+  "models": [
+    {"id": "yolov8m", "version": "coco-v8.3.0", "weights": "weights/yolov8m.pt", "enabled": true, "image_size": 640, "confidence": 0.25}
+  ]
+}
